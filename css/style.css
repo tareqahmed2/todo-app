@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.card {
+  background-color: #222;
+  column-rule: white;
+  padding: 1rem;
+  min-height: 80vh;
+  max-width: 50%;
+  overflow: unset;
+  scroll-behavior: smooth;
+  border-radius: 0.6rem;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+input {
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+  width: 75%;
+}
+
+.btn {
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+  background-color: orange;
+  color: whitesmoke;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.li-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  margin: 1rem 0;
+  transition: all 0.3s;
+}
+
+.li-style:hover {
+  background-color: #111;
+}
+
+.bg-success {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  color: black;
+  background-color: #ddfffd;
+  border-left: 6px solid #04aa6d;
+}
+
+.bg-danger {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  color: black;
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+}
